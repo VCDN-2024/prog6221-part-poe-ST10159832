@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProgRecipeTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgRecipeTester"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnAddRecipe" Content="Add a recipe" HorizontalAlignment="Left" Margin="334,110,0,0" VerticalAlignment="Top" Width="162" Height="36" Click="Button_Click"/>
+        <Button x:Name="btnDspRecipeList" Content="Display list of recipe" HorizontalAlignment="Left" Margin="334,166,0,0" VerticalAlignment="Top" Width="162" Height="36" Click="btnDspRecipeList_Click"/>
+        <Button x:Name="btnSearchRecipe" Content="Search for a recipe" HorizontalAlignment="Left" Margin="334,225,0,0" VerticalAlignment="Top" Width="162" Height="36" Click="btnSearchRecipe_Click"/>
+        <Button x:Name="btnDspTotalCalories" Content="Display total calories in recipe" HorizontalAlignment="Left" Margin="334,290,0,0" VerticalAlignment="Top" Width="162" Height="36" RenderTransformOrigin="0.656,0.568" Click="btnDspTotalCalories_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="334,349,0,0" VerticalAlignment="Top" Width="162" Height="36" Click="btnExit_Click"/>
+        <Label Content="Recipe App " HorizontalAlignment="Left" Margin="307,27,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="36" RenderTransformOrigin="0.226,0.458"/>
+    </Grid>
+</Window>
